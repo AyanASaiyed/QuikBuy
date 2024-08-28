@@ -1,0 +1,332 @@
+:root {
+  background-color: #2ac6ff;
+}
+
+h1 {
+  font-family: "Lilita One";
+  font-weight: 100;
+  font-style: normal;
+  font-size: 100;
+}
+
+.title {
+  color: rgba(255, 255, 255, 0.87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 125px;
+}
+
+.title h1 {
+  color: white; /* Set the text color */
+  -webkit-text-stroke: 3px black; /* Creates a 2px black border */
+}
+
+.cart {
+  height: 200px;
+  display: block;
+  margin-right: auto;
+  margin-top: -350px;
+  transform: rotate(320deg);
+}
+
+.bags {
+  height: 300px;
+  display: block;
+  margin-left: 75%;
+  margin-top: -250px;
+  transform: rotate(25deg);
+}
+
+.loginbtn {
+  font-family: "Lilita One";
+  border-radius: 50px;
+  background-color: #fd6bff;
+  border: 4px solid black;
+  color: white;
+  padding-block: 21px;
+  padding-inline: 130px;
+  font-size: 60px;
+  position: relative; /* Use relative positioning */
+  left: 30%; /* Move it to the center of the container */
+  transform: translateX(-50%);
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.logoutbtn {
+  display: flex;
+  margin-top: -3%;
+  padding-bottom: 0;
+  margin-left: 80%;
+  font-family: "Lilita One";
+  border-radius: 50px;
+  background-color: #fd6bff;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.no-under-line {
+  text-decoration: none;
+}
+
+.homebtn {
+  display: flex;
+  position: absolute;
+  margin-left: 5%;
+  font-family: "Lilita One";
+  border-radius: 50px;
+  background-color: #fd6bff;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-items-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+.regbtn {
+  font-family: "Lilita One";
+  border-radius: 50px;
+  background-color: #fd6bff;
+  border: 4px solid black;
+  color: white;
+  padding-block: 20px;
+  padding-inline: 90px;
+  font-size: 60px;
+  position: relative; /* Use relative positioning */
+  left: 40%; /* Move it to the center of the container */
+  transform: translateX(-50%);
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.ShopWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0e8add;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 50px;
+}
+
+.ShopWrapper2 {
+  background: #0e8add;
+  border-radius: 50px;
+}
+
+.ShopForm {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: -10%;
+}
+
+.shop-input {
+  outline: none;
+  background: white;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: black;
+}
+
+.shop-input::placeholder {
+  color: black;
+}
+
+.shopping-btn {
+  background: #06cf71;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid black;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff58e6;
+  border: 2px solid black;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.tax-rate {
+  outline: none;
+  background: white;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 0.25rem 0.5rem;
+  color: black;
+}
+
+.tax-input h2 {
+  color: white;
+}
+
+.total-sum {
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  background-color: aquamarine;
+}
+
+.total-sum h2 {
+  color: black;
+}
+
+@media (width >= 1920px) {
+  .ShopWrapper {
+    width: 100%;
+  }
+
+  .ShopWrapper2 {
+    width: 100%;
+  }
+
+  .bags {
+    margin-left: 1500px;
+    margin-top: -250px;
+    transform: rotate(25deg);
+  }
+
+  .loginbtn {
+    font-family: "Lilita One";
+    border-radius: 50px;
+    background-color: #fd6bff;
+    border: 4px solid black;
+    color: white;
+    padding-block: 21px;
+    padding-inline: 130px;
+    font-size: 60px;
+    position: relative; /* Use relative positioning */
+    left: 38%; /* Move it to the center of the container */
+    transform: translateX(-50%);
+    margin-top: 70px;
+    cursor: pointer;
+  }
+
+  .shop-input {
+    outline: none;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: black;
+  }
+
+  .ShopForm {
+    width: 60%;
+    margin-bottom: 1rem;
+    margin-top: -10%;
+  }
+}
+
+@media (width <= 1024px) {
+  .cart {
+    height: 159px;
+    margin-bottom: -35%;
+    margin-left: -2%;
+  }
+  .bags {
+    height: 350px;
+    margin-top: 10%;
+  }
+  .shop-input {
+    width: 200px;
+  }
+}
+
+@media (width <= 932px) {
+  .ShopWrapper {
+    width: 100%;
+  }
+
+  .cart,
+  .bags {
+    visibility: hidden;
+  }
+  .ShopWrapper2 {
+    width: 100%;
+  }
+
+  .loginbtn,
+  .regbtn {
+    left: 62%;
+  }
+
+  .logoutbtn,
+  .homebtn {
+    border-radius: 30%;
+    font-size: 16px;
+    padding: 0.4rem;
+  }
+
+  .shop-input {
+    outline: none;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 200px;
+    color: black;
+  }
+
+  .ShopForm {
+    width: 60%;
+    margin-bottom: 1rem;
+    margin-top: -10%;
+  }
+
+  .title {
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 105px;
+    position: relative;
+    left: 15%;
+  }
+}
